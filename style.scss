@@ -1,0 +1,31 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    background-color: rgb(121, 117, 117);
+
+    .field {
+        margin: 0px auto;
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        .cell {
+            width: 10px;
+            height: 10px;
+
+            background-color: white;
+        }
+    }
+}
